@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 120%;
+    line-height: 1.4;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+a {
+    color: #00a24b;
+    text-decoration: none;
+}
+
+a:link {
+    color: forestgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e8a062;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 {
+    color: #FDC032;
+    font-size: 4rem;
+    line-height: 0.9;
+}
+
+h1, h2 {
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 60px 0 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/*****************************
+    EN TETE DU SITE
+ ****************************/
+
+header {
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.logo {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 170px;
+    width: 260px;
+}
+
+/**********************************
+Contenue principal
+ **********************************/
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+
+}
+
+.introduction {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto;
+    border-bottom: 30px solid #e8a062;
+    border-radius: 30px;
+}
+
+.Ingredients li:nth-child(even) {
+    border-top: 5px solid #FDC032;
+    background-color: #823922;
+    border-bottom: 10px solid #00a24b;
+}
+
+.Ingredients li:first-child {
+    border-radius: 30px 30px 0 0;
+}
+
+li {
+    background-color: #e8a062;
+    color: white;
+    padding: 10px 40px;
+}
+footer {
+    background-color: #823922;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 40px;
+    max-width: 400px;
+    min-height: 50px;
+    border-top: 30px solid #e8a062;
+    border-bottom: 30px solid #e8a062;
+    border-radius: 30px;
+}
